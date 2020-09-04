@@ -58,7 +58,7 @@ struct ColorfulButtonStyle: ButtonStyle {
             .padding(.all, 30)
             .contentShape(Circle())
             .background(
-                DarkBackGround(isHighlighted: configuration.isPressed, shape: Circle())
+                ColorfulBackGround(isHighlighted: configuration.isPressed, shape: Circle())
         )
     }
 }

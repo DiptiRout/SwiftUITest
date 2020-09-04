@@ -18,4 +18,7 @@ extension Color {
     static let lightEnd = Color(red: 30 / 255, green: 80 / 255, blue: 120 / 255)
     
     
+    static let cardWhite = Color(red: 225 / 255, green: 233 / 255, blue: 245 / 255)
+
+    
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C425B03624FD02AC00A1B8FA /* CardHolderSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C425B03524FD02AC00A1B8FA /* CardHolderSwiftUIView.swift */; };
 		C4938C7624FC09570015BE82 /* NeumorphismSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4938C7524FC09570015BE82 /* NeumorphismSwiftUIView.swift */; };
 		C4938C7924FC23DF0015BE82 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4938C7824FC23DF0015BE82 /* Color+Extension.swift */; };
 		C4938C7B24FC242D0015BE82 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4938C7A24FC242D0015BE82 /* ButtonStyles.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C425B03524FD02AC00A1B8FA /* CardHolderSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHolderSwiftUIView.swift; sourceTree = "<group>"; };
 		C4938C7524FC09570015BE82 /* NeumorphismSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismSwiftUIView.swift; sourceTree = "<group>"; };
 		C4938C7824FC23DF0015BE82 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C4938C7A24FC242D0015BE82 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				C4D69F3024FAEF3700A41B8C /* LaunchScreen.storyboard */,
 				C4D69F3324FAEF3700A41B8C /* Info.plist */,
 				C4D69F2D24FAEF3700A41B8C /* Preview Content */,
+				C425B03524FD02AC00A1B8FA /* CardHolderSwiftUIView.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C4938C7624FC09570015BE82 /* NeumorphismSwiftUIView.swift in Sources */,
 				C4D69F2824FAEF3300A41B8C /* SceneDelegate.swift in Sources */,
 				C4938C7B24FC242D0015BE82 /* ButtonStyles.swift in Sources */,
+				C425B03624FD02AC00A1B8FA /* CardHolderSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

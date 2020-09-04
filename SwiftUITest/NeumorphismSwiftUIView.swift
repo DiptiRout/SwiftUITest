@@ -37,20 +37,20 @@ struct NeumorphismSwiftUIView: View {
             
             LinearGradient(Color.darkStart, Color.darkEnd)
             HStack(spacing: 40) {
-//                Button(action: {
-//                        print("Action")
-//                        
-//                    }) {
-//                        Image(systemName: "video.fill")
-//                            .foregroundColor(.white)
-//                    }
-//                .buttonStyle(DarkButtonStyle())
+                Button(action: {
+                        print("Action")
+                        
+                    }) {
+                        Image(systemName: "video.fill")
+                            .foregroundColor(.white)
+                    }
+                .buttonStyle(DarkButtonStyle())
                                 
-//                Toggle(isOn: $isToggled) {
-//                    Image(systemName: "video.fill")
-//                    .foregroundColor(.white)
-//                }
-//                .toggleStyle(DarkToggleStyle())
+                Toggle(isOn: $isToggled) {
+                    Image(systemName: "video.fill")
+                    .foregroundColor(.white)
+                }
+                .toggleStyle(DarkToggleStyle())
 //                
 //                Button(action: {
 //                        print("Action")
@@ -61,11 +61,11 @@ struct NeumorphismSwiftUIView: View {
 //                    }
 //                .buttonStyle(ColorfulButtonStyle())
                                 
-                Toggle(isOn: $isToggled) {
-                    Image(systemName: "video.fill")
-                    .foregroundColor(.white)
-                }
-                .toggleStyle(ColorfulToggleStyle())
+//                Toggle(isOn: $isToggled) {
+//                    Image(systemName: "video.fill")
+//                    .foregroundColor(.white)
+//                }
+//                .toggleStyle(ColorfulToggleStyle())
             }
         }
         .edgesIgnoringSafeArea(.all)
